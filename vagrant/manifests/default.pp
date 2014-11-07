@@ -1,3 +1,3 @@
 class { 'apache': }
-#$vhost = hiera('apache::vhost', {})
-#create_resources('apache::vhost', $vhost)
+$vhost = hiera('apache::vhosts', {})
+create_resources('apache::vhost', $vhost)
