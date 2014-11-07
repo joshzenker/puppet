@@ -1,5 +1,5 @@
 ---
 apache::vhosts:
-    foo.example.com:
+    dev.example.com:
         port: 80
-        docroot: /var/www/foo
+        docroot: /var/www/dev

@@ -1,0 +1,5 @@
+---
+apache::vhosts:
+    prod.example.com:
+        port: 80
+        docroot: /var/www/prod
