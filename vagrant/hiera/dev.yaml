@@ -1,0 +1,5 @@
+---
+apache::vhosts:
+    foo.example.com:
+        port: 80
+        docroot: /var/www/foo

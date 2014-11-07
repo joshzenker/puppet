@@ -1,0 +1,10 @@
+---
+:backends:
+    - yaml
+
+:hierarchy:
+    - "%{::environment}"
+    - common
+
+:yaml:
+    :datadir: '/vagrant/hiera'
